@@ -484,10 +484,10 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 }
 
 @media screen and (max-width:1920px) and (min-width:1024px){
-#my_banner_Video{width:500px}
+#my_banner_Video{width:550px}
 }
 @media screen and (max-width:1024px) and (min-width:820px){
-#my_banner_Video{width:430px}
+#my_banner_Video{width:350px}
 .banner_xogen_new_ban_list li{padding:5px 0;font-size:16px;color:#464646;font-weight:600}
 .banner_xogen_new_ban_list li img{width:16px}
 .seal-cls-money-back{width:140px!important}
@@ -562,7 +562,7 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 
 
 /*====================================================*/
-/* Ribbon css*/
+/* Treatment css*/
 /*====================================================*/
 
 .flipsub-heading{font-weight:600;color:#30292b;font-size:16px;text-transform:uppercase;margin-bottom:5px}
@@ -571,6 +571,13 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .ai-box-content{padding:10px 20px; height:auto}
 .tratment-sub-heading{padding-top:20px;font-size:20px;color:#212121;line-height:30px;font-weight:600}
 .tratment-slider-img-wid{width:100%!important}
+.para_treatment_offer{
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 0;
+	color: #212121;
+}
+
 #tratment_slider .owl-item .item img{-webkit-transition:.3s;-o-transition:.3s;transition:.3s;-webkit-transform:scale(.8);-ms-transform:scale(.8);transform:scale(.8);opacity:.4}
 #tratment_slider .owl-item.center .item img{-webkit-transform:scale(1.15);-ms-transform:scale(1.15);transform:scale(1.15);opacity:1}
 #tratment_slider .owl-nav{text-align:right;top:-60px;position:absolute;right:30px}
@@ -630,7 +637,8 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 
 .box-for-treatment-sec {
   position: relative;
-  max-height: 650px;
+  max-height: 680px;
+  height: 680px;
   overflow: hidden;
 /*  border: solid 1px blue;*/
 /*  padding: 10px;*/
@@ -641,6 +649,7 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 
 .box-for-treatment-sec.expand{
   max-height: 5000px !important;
+  height: auto;
   transition:max-height 0.35s ease-in-out;
 }
 
@@ -681,26 +690,31 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 
 
 /*====================================================*/
-/* Ribbon css*/
+/* Gen New Banner css*/
 /*====================================================*/
 
 
-.Genric_heding_banner{color:#1c82c4;font-family:"Playfair Display",serif;font-weight:900;font-size:50px}
-.Genric_Sub_heding_banner{font-size:42px;font-weight:400;margin-bottom:10px}
+.Genric_heding_banner{color:#1c82c4;font-family:"Playfair Display",serif;font-weight:900;font-size:67px; margin-bottom: 0}
+.Genric_Sub_heding_banner{font-size:42px;font-weight:400;margin-bottom: 0}
 .genric_para_banner{
-	padding-top: 5px;
-	font-size: 32px;
+	font-size: 28px;
 	line-height: normal;
 }
 
+.banner_genric_img{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 50%;
+}
+
 @media (max-width:1680px){
-.Genric_heding_banner{font-size: 45px}	
+.Genric_heding_banner{font-size: 65px}	
 .Genric_Sub_heding_banner{font-size:38px}
 .banner_genric_img{
-	width: 56%;
+	width: 50%;
 }
 .genric_para_banner{
-	font-size: 28px;
+	font-size: 24px;
 }
 
 }
@@ -721,27 +735,34 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 }
 }
 @media (max-width:1024px){
-.Genric_heding_banner{font-size:28px}
-.Genric_Sub_heding_banner{font-size:18px}
+.Genric_heding_banner{font-size:45px}
+.Genric_Sub_heding_banner{font-size:30px}
 .genric_para_banner{
 	font-size: 16px;
 }
+
+.banner_genric_img{
+	width: 70%;
+	padding-bottom: 5px;
+}
+
 }
 @media (max-width:992px){
-.Genric_heding_banner{font-size:32px}
+.Genric_heding_banner{font-size:40px}
+.Genric_Sub_heding_banner{font-size:28px}
+
 }
 @media (max-width:800px){
-.Genric_heding_banner{font-size:35px}
-.Genric_Sub_heding_banner{font-size:24px}
+.Genric_heding_banner{font-size:50px}
+.Genric_Sub_heding_banner{font-size:28px}
 }
 
 @media (max-width:768px){
-.Genric_heding_banner{padding-top: 15px;}
 .genric_para_banner{
 	font-size: 20px;
 }
 .banner_genric_img{
-	width: 50%;
+	width: 70%;
 	padding-bottom: 5px;
 }
 }
