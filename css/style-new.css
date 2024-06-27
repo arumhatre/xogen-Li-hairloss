@@ -761,10 +761,17 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 	font-size: 20px;
 }
 .banner_genric_img{
-	width: 70%;
+	width: 85%;
 	padding-bottom: 5px;
 }
 }
+
+@media (max-width:768px){
+	.Generic_banner_content{
+		text-align: center;
+	}
+}
+
 
 @media (max-width:411px){
 .Genric_heding_banner{font-size:38px}
