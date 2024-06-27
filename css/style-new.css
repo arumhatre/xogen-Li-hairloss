@@ -774,9 +774,9 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 
 
 @media (max-width:411px){
-.Genric_heding_banner{font-size:38px}
-.Genric_Sub_heding_banner{font-size:24px}
+.Genric_heding_banner{font-size:55px}
+.Genric_Sub_heding_banner{font-size:30px}
 }
 @media (max-width:384px){
-.Genric_heding_banner{font-size:38px}
+/*.Genric_heding_banner{font-size:55px}*/
 }
