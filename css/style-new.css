@@ -572,10 +572,9 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .tratment-sub-heading{padding-top:20px;font-size:20px;color:#212121;line-height:30px;font-weight:600}
 .tratment-slider-img-wid{width:100%!important}
 .para_treatment_offer{
-	font-size: 16px;
-	font-weight: 600;
+	font-size: 14px;
+	font-weight: 500;
 	margin-bottom: 0;
-	color: #212121;
 }
 
 #tratment_slider .owl-item .item img{-webkit-transition:.3s;-o-transition:.3s;transition:.3s;-webkit-transform:scale(.8);-ms-transform:scale(.8);transform:scale(.8);opacity:.4}
