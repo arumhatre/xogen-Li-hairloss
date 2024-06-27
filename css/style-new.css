@@ -483,6 +483,53 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .banner_xogen_new_ban_list li{padding:5px 0;font-size:21px;color:#464646;font-weight:600}	
 }
 
+@media screen and (max-width:1920px) and (min-width:1024px){
+#my_banner_Video{width:500px}
+}
+@media screen and (max-width:1024px) and (min-width:820px){
+#my_banner_Video{width:430px}
+.banner_xogen_new_ban_list li{padding:5px 0;font-size:16px;color:#464646;font-weight:600}
+.banner_xogen_new_ban_list li img{width:16px}
+.seal-cls-money-back{width:140px!important}
+}
+@media screen and (max-width:768px){
+#my_banner_Video{width:400px}
+.banner_xogen_new_ban_list li{padding:5px 0;font-size:16px;color:#464646;font-weight:600}
+.banner_xogen_new_ban_list li img{width:16px}
+.seal-cls-money-back{width:140px!important}
+}
+@media screen and (max-width:600px){
+.banner_xogen_new_ban_list li{padding:3px 0;font-size:18px;color:#464646;font-weight:600}
+.banner_xogen_new_ban_list li img{width:18px}
+.seal-cls-money-back{width:100px!important}
+#my_banner_Video{width:100%}
+}
+
+
+
+
+.xogen-para{padding-top:15px;font-size:16px;color:#212121}
+.xogen-list-para {list-style:none;padding-inline-start:0px; display: inline;}
+.xogen-list-para li{display: flex; padding-right:20px;color:#212121; padding-top: 17px}
+.xogen-list-para li img {width: 27px; height: 26px; margin-right: 10px; margin-top: 3px}
+
+
+
+
+
+
+/*====================================================*/
+/* New Banner css*/
+/*====================================================*/
+
+.banner_xogen_new_ban_list{list-style:none;padding-inline-start:0px}
+.banner_xogen_new_ban_list::marker{line-height:normal;width:20px;height:20px}
+.banner_xogen_new_ban_list li{padding:5px 0;font-size:24px;color:#464646;font-weight:600}
+.banner_xogen_new_ban_list li img{width:24px}
+@media screen and (max-width:1366px) and (min-width:1024px){
+.banner_xogen_new_ban_list li{padding:5px 0;font-size:21px;color:#464646;font-weight:600}	
+}
+
 @media screen and (max-width:1920px) and (min-width:1480px){
 #my_banner_Video{width:450px}
 }
@@ -630,6 +677,7 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .readmore-link.expand:after{
   content:"Read Less";
 }
+
 
 
 /*====================================================*/
