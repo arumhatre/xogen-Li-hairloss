@@ -472,7 +472,7 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 
 
 /*====================================================*/
-/* New Banner css*/
+/* Video New Banner css*/
 /*====================================================*/
 
 .banner_xogen_new_ban_list{list-style:none;padding-inline-start:0px}
@@ -506,15 +506,13 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 }
 
 
-
-
+/*====================================================*/
+/* About List css*/
+/*====================================================*/
 .xogen-para{padding-top:15px;font-size:16px;color:#212121}
 .xogen-list-para {list-style:none;padding-inline-start:0px; display: inline;}
 .xogen-list-para li{display: flex; padding-right:20px;color:#212121; padding-top: 17px}
 .xogen-list-para li img {width: 27px; height: 26px; margin-right: 10px; margin-top: 3px}
-
-
-
 
 
 
@@ -558,9 +556,6 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 }
 
 
-
-
-
 /*====================================================*/
 /* Treatment css*/
 /*====================================================*/
@@ -568,215 +563,77 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .flipsub-heading{font-weight:600;color:#30292b;font-size:16px;text-transform:uppercase;margin-bottom:5px}
 .flip-list{color:#636363;font-size:15px;padding-inline-start:19px}
 .box-for-treatment-sec{margin:12px;box-shadow:0 2px 8px rgb(194 194 194 / 30%)}
-.ai-box-content{padding:10px 20px; height:auto}
+.ai-box-content{padding:10px 20px;height:auto}
 .tratment-sub-heading{padding-top:20px;font-size:20px;color:#212121;line-height:30px;font-weight:600}
 .tratment-slider-img-wid{width:100%!important}
-.para_treatment_offer{
-	font-size: 14px;
-	font-weight: 500;
-	margin-bottom: 0;
-}
-
+.para_treatment_offer{font-size:14px;font-weight:500;margin-bottom:0}
 #tratment_slider .owl-item .item img{-webkit-transition:.3s;-o-transition:.3s;transition:.3s;-webkit-transform:scale(.8);-ms-transform:scale(.8);transform:scale(.8);opacity:.4}
 #tratment_slider .owl-item.center .item img{-webkit-transform:scale(1.15);-ms-transform:scale(1.15);transform:scale(1.15);opacity:1}
 #tratment_slider .owl-nav{text-align:right;top:-60px;position:absolute;right:30px}
 #tratment_slider .owl-nav button{font-size:30px!important;margin:0 7px;color:#000!important}
-.treatment_offer_sec_new{
-	margin-top: 10px;
-/*	background: linear-gradient(90deg, rgba(48,150,211,1) 0%, rgba(255,255,255,1) 77%);*/
-}
-.treatment_offer_sec_new h2{
-	margin-bottom: 0;
-	font-size: 35px;
-	font-weight: 900;
-	color: #3d98d1;
-/*	padding:5px 10px;*/
-}
-
-.treatment_offer_sec_new h2 span{
-	font-weight: 400;
-	color: #212121;
-	font-size: 24px;
-}
-
+.treatment_offer_sec_new{margin-top:10px}
+.treatment_offer_sec_new h2{margin-bottom:0;font-size:35px;font-weight:900;color:#3d98d1}
+.treatment_offer_sec_new h2 span{font-weight:400;color:#212121;font-size:24px}
 @media (max-width:1024px){
 .owl-item .item{transform:translate3d(0,0,0);padding:30px 30px 20px}
 #tratment_slider .owl-nav{text-align:center!important;margin-top:15px;top:0;right:0;position:relative}
 #tratment_slider .owl-nav button{font-size:30px!important;margin:0 10px;color:#000!important}
 }
-
-
-.ribbon-wrapper {
-  width: 150px;
-  height: 151px;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.ribbon-wrapper .ribbon {
-  font-size: 10px;
-  font-weight: 	600;
-  text-transform: uppercase;
-  color: #fff;
-  text-align: center;
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  position: relative;
-  padding: 5px 0;
-  top: 29px;
-  left: -41px;
-  width: 170px;
-  background-color: #e60d26;
-  color: #ffffff;
-}
-
-
-.box-for-treatment-sec {
-  position: relative;
-  max-height: 680px;
-  height: 680px;
-  overflow: hidden;
-/*  border: solid 1px blue;*/
-/*  padding: 10px;*/
-/*  margin-bottom: 20px;*/
-  transition:max-height 0.15s ease-out;
-
-}
-
-.box-for-treatment-sec.expand{
-  max-height: 5000px !important;
-  height: auto;
-  transition:max-height 0.35s ease-in-out;
-}
-
-.readmore-link {
-    padding-left: 22px;
-    padding-bottom: 10px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    display: block;
-    width: 100%;
-/*    height: 60px;*/
-    text-align: left;
-    color: #2876a9;
-    font-weight: bold;
-    font-size: 18px;
-    padding-top: 21px;
-    background-image: linear-gradient(to bottom, #ffffffe8, #ffffff);
-    cursor: pointer;
-}
-
-
-.readmore-link.expand {
-  position: relative;
-  background-image: none;
-  padding-top:10px;
-  padding-bottom: 10px;
-/*  height:20px;*/
-}
-
-.readmore-link:after {
-  content:"Read More";
-}
-.readmore-link.expand:after{
-  content:"Read Less";
-}
-
+.ribbon-wrapper{width:150px;height:151px;overflow:hidden;position:absolute;top:0;left:0}
+.ribbon-wrapper .ribbon{font-size:10px;font-weight:600;text-transform:uppercase;color:#fff;text-align:center;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);position:relative;padding:5px 0;top:29px;left:-41px;width:170px;background-color:#e60d26;color:#fff}
+.box-for-treatment-sec{position:relative;max-height:680px;height:680px;overflow:hidden;transition:max-height .15s ease-out}
+.box-for-treatment-sec.expand{max-height:5000px!important;height:auto;transition:max-height .35s ease-in-out}
+.readmore-link{padding-left:22px;padding-bottom:10px;position:absolute;bottom:0;right:0;display:block;width:100%;text-align:left;color:#2876a9;font-weight:700;font-size:18px;padding-top:21px;background-image:linear-gradient(to bottom,#ffffffe8,#fff);cursor:pointer}
+.readmore-link.expand{position:relative;background-image:none;padding-top:10px;padding-bottom:10px}
+.readmore-link:after{content:"Read More"}
+.readmore-link.expand:after{content:"Read Less"}
 
 
 /*====================================================*/
 /* Gen New Banner css*/
 /*====================================================*/
-
-
-.Genric_heding_banner{color:#1c82c4;font-family:"Playfair Display",serif;font-weight:900;font-size:67px; margin-bottom: 0}
-.Genric_Sub_heding_banner{font-size:42px;font-weight:400;margin-bottom: 0}
-.genric_para_banner{
-	font-size: 28px;
-	line-height: normal;
-}
-
-.banner_genric_img{
-	padding-top: 8px;
-	padding-bottom: 8px;
-	width: 50%;
-}
-
+.Genric_heding_banner{color:#1c82c4;font-family:"Playfair Display",serif;font-weight:900;font-size:67px;margin-bottom:0}
+.Genric_Sub_heding_banner{font-size:42px;font-weight:400;margin-bottom:0}
+.genric_para_banner{font-size:28px;line-height:normal}
+.banner_genric_img{padding-top:8px;padding-bottom:8px;width:50%}
 @media (max-width:1680px){
-.Genric_heding_banner{font-size: 65px}	
+.Genric_heding_banner{font-size:65px}
 .Genric_Sub_heding_banner{font-size:38px}
-.banner_genric_img{
-	width: 50%;
+.banner_genric_img{width:50%}
+.genric_para_banner{font-size:24px}
 }
-.genric_para_banner{
-	font-size: 24px;
-}
-
-}
-
 @media (max-width:1440px){
 .Genric_heding_banner{font-size:40px}
 .Genric_Sub_heding_banner{font-size:36px}
-.genric_para_banner{
-	font-size: 24px;
-}
+.genric_para_banner{font-size:24px}
 }
 @media (max-width:1366px){
 .Genric_heding_banner{font-size:40px}
 .Genric_Sub_heding_banner{font-size:32px}
-.banner_genric_img{
-	width: 50%;
-	padding-bottom: 5px;
-}
+.banner_genric_img{width:50%;padding-bottom:5px}
 }
 @media (max-width:1024px){
 .Genric_heding_banner{font-size:45px}
 .Genric_Sub_heding_banner{font-size:30px}
-.genric_para_banner{
-	font-size: 16px;
-}
-
-.banner_genric_img{
-	width: 70%;
-	padding-bottom: 5px;
-}
-
+.genric_para_banner{font-size:16px}
+.banner_genric_img{width:70%;padding-bottom:5px}
 }
 @media (max-width:992px){
 .Genric_heding_banner{font-size:40px}
 .Genric_Sub_heding_banner{font-size:28px}
-
 }
 @media (max-width:800px){
 .Genric_heding_banner{font-size:50px}
 .Genric_Sub_heding_banner{font-size:28px}
 }
-
 @media (max-width:768px){
-.genric_para_banner{
-	font-size: 20px;
+.genric_para_banner{font-size:20px}
+.banner_genric_img{width:85%;padding-bottom:5px}
 }
-.banner_genric_img{
-	width: 85%;
-	padding-bottom: 5px;
-}
-}
-
 @media (max-width:768px){
-	.Generic_banner_content{
-		text-align: center;
-	}
+.Generic_banner_content{text-align:center}
 }
-
-
 @media (max-width:411px){
 .Genric_heding_banner{font-size:55px}
 .Genric_Sub_heding_banner{font-size:30px}
-}
-@media (max-width:384px){
-/*.Genric_heding_banner{font-size:55px}*/
 }
